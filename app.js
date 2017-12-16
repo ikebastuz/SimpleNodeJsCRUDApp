@@ -67,7 +67,7 @@ app.use(function(req, res, next){
 	next();
 });
 
-// Init 123
+// Init
 app.listen(port, () => {
 	console.log(`Server started on port ${port}`);
 });
